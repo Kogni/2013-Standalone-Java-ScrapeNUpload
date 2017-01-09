@@ -1,0 +1,97 @@
+2013 juni 04:
+- Forandret søkestrukturen. Scraping er nå mer nøyaktig, men vil til gjengjeld ta lengre tid.
+- Fikset en feil som fikk programmet til å prøve å laste ned ugyldige(ikke-eksisterende) websider.
+
+2013 mai 28:
+- URL-tab viser nå litt statistikk om URL'r den har funnet, så man lettere ser hvor vellykket scrapingen er.
+- Scraper forteller nå mer om prosessen med å finne nye URL'er, så man ser bedre hva den driver med.
+- Droppet noen felter i CSV som aldri brukes (feks heihgt, weight, etc)
+- Forbedret algoritmen for prioriteringsrekkefølge for nye linker som skal sjekkes.
+
+2013 mai 27:
+- Forbedret automatisk produktbeskrivelse.
+- Forbedret gjenkjenning av porduktmaterialer.
+- Programmet logger nå alle URL'er som ikke blir godkjent til nedlasting.
+
+2013 mai 23:
+- Scraperen forteller nå at den tester linker for nye URLer, så man ser bedre hva den driver med.
+
+2013 mai 22:
+- FOrbedret gjenkjenning av produkttype og -egenskaper.
+
+2013 mai 20: 
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Forbedret automatisk kategorisering av produkter.
+- Forandret algoritme for automatisering av navn på produkter.
+- Forbedret scanning av produktantall i annonser.
+- Keyword meta tags satt til identisk som produktnavn (var tidligere satt til keywords fra opprinnelig annonse).
+- Endret format i automatiske produktbeskrivelser.
+
+2013 mai 19:
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Forbedret automatisk kategorisering av produkter.
+
+2013 mai 15:
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Forbedret automatisk SEO-generering, ved å unngå gjentagelse av ord.
+
+2013 mai 14:
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Forbedret automatisk kategorisering av produkter.
+
+2013 mai 13:
+- Fixet bug i gjenkjenning av visse produktegenskaper.
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Forbedret automatisk kategorisering av produkter.
+
+2013 mai 12:
+- Forbedret gjenkjenning av produktegenskaper.
+
+2013 mai 11:
+- Forbedret automatisering av navn på produkter.
+
+2013 mai 10:
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Forbedret automatisering av navn på produkter.
+- Forbedret automatisk kategorisering av produkter.
+
+2013 mai 09:
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Fixet bug relatert til lagring av brukersettings.
+- Forbedret automatisering av navn på produkter
+AliExpress:
+- La inn flere produktkategorier for AliExpress.
+- Fikset bug relatert til produkter som koster over 1000$ hos AliExpress.
+
+2013 mai 08:
+- La til brukerbutikken Pinkie.
+- La til valgmulighet for 2.5-kalkyle.
+- La til flere beskrivende ord for produkter.
+- Forbedret gjenkjenning av produkttype og -egenskaper.
+- Feed-filers navn vil nå inkludere bbrukerbutikken som feeden er ment for.
+AliExpress:
+- La inn sjekk for min.order$ for AliExpress.
+- Forbedret kategorisøk hos AliExpress.
+- La inn flere produktkategorier for AliExpress.
+
+2013 mai 07:
+- Fikset bugs relatert til hvilke item types som ønskes fra forskjellige dropshippers.
+- Fikset at "dame" kommer maks 1 gang i produkters navn og SEO.
+
+2013 mai 06:
+- Forbedret automatiske produktnavn for AliExpress, ved å utelukke reklametekster for andre produkter.
+
+2013 april 25:
+- 1on1dropship:
+-- FOrbedret gjenkjenning av produktbeskrivelser og bilder for 1on1dropship.
+-- Forbedret crawling for 1on1dropship.
+- Forbedret gjenkjenning av produkttyper og auto-kategorisering.
+- Ved automatisk restarting av programmet(pga fullt programminne) så vil programmet - i motsetning til tidligere - gjenåpne URL'er for produkter som allerede er printet ut, fordi disse ikke nødvendigvis er ferdig sjekket for nye lenker.
+
+2013 april 24:
+- AliExpress:
+-- Fikset at scraper gjenkjenner flere bilder for produkter hos AliExpress.
+-- Scraper plukker opp valgmuligheter(farge, strl etc) for produkter hos AliExpress.
+-- Scraper plukker opp pieces/lot for produkter hos AliExpress.
+- Produktbeskrivelse vil nå inneholde extra-bilder, valgmuligheter funnet i annonsen, pieces/lot og opprinnelig beskrivelse. "china" og navnet på dropshipper blir sensurert.
+- Ved automatisk restarting av programmet(pga fullt programminne) så vil ikke programmet lenger gjenåpne(og fylle programmminnet med-) URL'er som allerede er ferdig sjekket for nye lenker.
